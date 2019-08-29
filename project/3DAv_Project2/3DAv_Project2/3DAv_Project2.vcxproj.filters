@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Targa">
+      <UniqueIdentifier>{401bcb22-525f-4a0c-a884-7a1ad96fea02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Shaders">
+      <UniqueIdentifier>{ed5cc39e-f1d0-46db-a227-34d8e9ace0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Shader">
+      <UniqueIdentifier>{ce797936-75d6-4741-8fc3-47a07ebef782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Textures">
+      <UniqueIdentifier>{e5725206-f021-48dc-9c89-dc6eca465ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Textures">
+      <UniqueIdentifier>{5e3ac9f1-c0af-4d43-940b-f1ee9f2c4c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Scene Components">
+      <UniqueIdentifier>{dc823cfc-7bd2-4545-b121-0596f3647480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Scene Components">
+      <UniqueIdentifier>{e26bfb4c-bb31-4781-9866-f9aad1719d2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\code\sources\main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Scene.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\headers\Scene.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\targa\src\targa.c">
+      <Filter>Targa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Texture2D.cpp">
+      <Filter>Archivos de origen\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Model.cpp">
+      <Filter>Archivos de origen\Scene Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Mesh.cpp">
+      <Filter>Archivos de origen\Scene Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Skybox.cpp">
+      <Filter>Archivos de origen\Scene Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Shader.cpp">
+      <Filter>Archivos de origen\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\ShaderProgram.cpp">
+      <Filter>Archivos de origen\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\TextureSkybox.cpp">
+      <Filter>Archivos de origen\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\Camera.cpp">
+      <Filter>Archivos de origen\Scene Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\code\sources\PostProcess.cpp">
+      <Filter>Archivos de origen\Scene Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libraries\targa\include\targa.h">
+      <Filter>Targa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\FragmentShader.hpp">
+      <Filter>Archivos de encabezado\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\VertexShader.hpp">
+      <Filter>Archivos de encabezado\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Shader.hpp">
+      <Filter>Archivos de encabezado\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\ShaderProgram.hpp">
+      <Filter>Archivos de encabezado\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Texture2D.hpp">
+      <Filter>Archivos de encabezado\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\ColorBuffer.hpp">
+      <Filter>Archivos de encabezado\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\ColorBuffer_RGBA8888.hpp">
+      <Filter>Archivos de encabezado\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Camera.hpp">
+      <Filter>Archivos de encabezado\Scene Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Mesh.hpp">
+      <Filter>Archivos de encabezado\Scene Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Model.hpp">
+      <Filter>Archivos de encabezado\Scene Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\Skybox.hpp">
+      <Filter>Archivos de encabezado\Scene Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\TextureSkybox.hpp">
+      <Filter>Archivos de encabezado\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\code\headers\PostProcess.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
